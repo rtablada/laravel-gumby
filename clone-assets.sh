@@ -5,7 +5,7 @@ mkdir -p public/fonts;
 cp lib/bower/gumby/js/libs/modernizr-2.6.2.min.js public/js/modernizr.js;
 cp lib/bower/jquery/dist/jquery.min.js public/js/jquery.min.js;
 cp lib/bower/jquery/dist/jquery.min.map public/js/jquery.min.map;
-cp -r bower_componenets/gumby/fonts/icons public/fonts/;
+cp -r lib/bower/gumby/fonts/icons public/fonts/;
 
 mkdir -p assets/sass/var;
 cp lib/bower/gumby/sass/gumby.scss assets/sass/;
