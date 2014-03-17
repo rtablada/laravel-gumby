@@ -1,5 +1,6 @@
 {
 	"name": "rtablada.laravel-gumby",
+	"repository": "https://github.com/rtablada/laravel-gumby",
 	"require": {
 		"rtablada.bower-setup": "1.0.0"
 	},
