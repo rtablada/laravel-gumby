@@ -1,0 +1,10 @@
+{
+	"name": "rtablada.laravel-gumby",
+	"require": {
+		"rtablada.bower-setup"
+	},
+	"scripts": [
+		"bower.sh",
+		"clone-assets.sh"
+	]
+}
