@@ -1,7 +1,7 @@
 {
 	"name": "rtablada.laravel-gumby",
 	"require": {
-		"rtablada.bower-setup"
+		"rtablada.bower-setup": "1.0.0"
 	},
 	"scripts": [
 		"bower.sh",
