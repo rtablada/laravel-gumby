@@ -11,5 +11,6 @@ sed -i '.bak' 's/"typography"/"..\/..\/lib\/bower\/gumby\/sass\/typography"/g' a
 sed -i '.bak' 's/"grid"/"..\/..\/lib\/bower\/gumby\/sass\/grid"/g' assets/sass/gumby.scss;
 sed -i '.bak' 's/"ui\/all"/"..\/..\/lib\/bower\/gumby\/sass\/ui\/all"/g' assets/sass/gumby.scss;
 sed -i '.bak' 's/"shame"/"..\/..\/lib\/bower\/gumby\/sass\/shame"/g' assets/sass/gumby.scss;
+rm assets/sass/gumby.scss.bak;
 
 compass compile;
