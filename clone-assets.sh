@@ -9,8 +9,8 @@ cp -r lib/bower/gumby/fonts/icons public/fonts/;
 
 mkdir -p assets/sass/var;
 cp lib/bower/gumby/sass/gumby.scss assets/sass/;
-cp lib/bower/gumby/sass/_settings.scss assets/sass/var/_settings.scss;
-cp lib/bower/gumby/sass/_fonts.scss assets/sass/_font.scss;
+cp lib/bower/gumby/sass/var/_settings.scss assets/sass/var/_settings.scss;
+cp lib/bower/gumby/sass/_fonts.scss assets/sass/_fonts.scss;
 cp lib/bower/gumby/sass/_custom.scss assets/sass/_custom.scss;
 echo '{ "build": { "gumbyPath": "lib/bower/gumby", "outPath": "public/js" } }' > gumby.json;
 claybate build;

@@ -7,6 +7,7 @@
 	"scripts": [
 		"bower.sh",
 		"clone-assets.sh",
-		"compass-setup.sh"
+		"compass-setup.sh",
+		"update-gumby-scss.sh"
 	]
 }
