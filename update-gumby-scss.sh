@@ -12,5 +12,4 @@ sed -i '' 's/"grid"/"../../lib/bower/gumby/sass/grid"/g' assets/sass/gumby.scss;
 sed -i '' 's/"ui\/all"/"../../lib/bower/gumby/sass/ui\/all"/g' assets/sass/gumby.scss;
 sed -i '' 's/"shame"/"../../lib/bower/gumby/sass/shame"/g' assets/sass/gumby.scss;
 
-
 compass compile;
