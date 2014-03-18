@@ -6,6 +6,7 @@
 	},
 	"scripts": [
 		"bower.sh",
-		"clone-assets.sh"
+		"clone-assets.sh",
+		"compass-setup.sh",
 	]
 }

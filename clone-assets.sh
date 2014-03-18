@@ -12,6 +12,5 @@ cp lib/bower/gumby/sass/gumby.scss assets/sass/;
 cp lib/bower/gumby/sass/_settings.scss assets/sass/var/_settings.scss;
 cp lib/bower/gumby/sass/_fonts.scss assets/sass/_font.scss;
 cp lib/bower/gumby/sass/_custom.scss assets/sass/_custom.scss;
-cp lib/bower/gumby/config.rb config.rb;
-compass compile;
-echo '{ "build": { "gumbyPath": "lib/bower/gumby", "outPath": "pubclic/js" } }' > gumby.json;
+echo '{ "build": { "gumbyPath": "lib/bower/gumby", "outPath": "public/js" } }' > gumby.json;
+claybate build;
